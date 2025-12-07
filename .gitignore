@@ -1,0 +1,41 @@
+# --- Python & Jupyter ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Entornos Virtuales (MUY IMPORTANTE) ---
+.venv/
+venv/
+env/
+.env
+
+# --- Datasets y Archivos Grandes ---
+# Ignoramos la carpeta de datos y el zip original
+Spam_Data/
+Spam_Data.zip
+
+# --- Recursos descargados (GloVe, etc) ---
+glove*.zip
+glove*.txt
+# Cache de TensorFlow Hub (si se generó algo local)
+/tmp/tfhub_modules/
+
+# --- Archivos de Salida / Predicciones ---
+submission.csv
+submission_*.csv
+*.csv
+
+# --- Modelos guardados (si guardaste pesos) ---
+*.h5
+*.keras
+*.ckpt
+
+# --- Logs y Gráficos temporales ---
+logs/
+tensorboard_logs/
+
+# --- Configuración del Sistema / IDE ---
+.vscode/
+.idea/
+.DS_Store
