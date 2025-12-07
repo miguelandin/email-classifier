@@ -13,7 +13,6 @@ env/
 # --- Datasets y Archivos Grandes ---
 # Ignoramos la carpeta de datos y el zip original
 Spam_Data/
-Spam_Data.zip
 
 # --- Recursos descargados (GloVe, etc) ---
 glove*.zip
