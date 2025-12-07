@@ -15,7 +15,7 @@ unzip Spam_Data.zip
 ##### Activar entorno virutal
 ```bash
 python -m venv .venv # (usa python3 en vez de python si no funciona)
-source .venv/bin/active
+source .venv/bin/activate
 pip install -r requirements.txt # instalar librerias
 ```
 
